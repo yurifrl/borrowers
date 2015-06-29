@@ -1,4 +1,9 @@
 <form {{action "save" on="submit"}}>
+  <div>
+    <h2>Friend details</h2>
+    <p>{{model.firstName}}</p>
+    <p>{{model.lastName}}</p>
+  </div>
   <p>
     <label>First Name: {{input value=model.firstName}}
     </label>
