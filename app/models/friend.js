@@ -1,3 +1,4 @@
+/* global: Ember */
 // We import the default value from ember-data into the variable DS.
 //
 // Ember-Data exports by default a namespace (known as DS) that exposes all the
@@ -19,5 +20,6 @@ export default DS.Model.extend({
   totalArticles: DS.attr('number'),
   fullName: Ember.computed('firstName', 'lastName', function() {
     return this.get('firstName') + ' ' + this.get('lastName');
-  })
+  }),
+  articles: DS.hasMany('article')
 });
