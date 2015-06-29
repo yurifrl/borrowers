@@ -51,3 +51,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### Backend
+
+http://yurifrl-borrowers-backend.herokuapp.com/api
+api.ember-cli-101.com/api/friends
