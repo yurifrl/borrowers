@@ -1,4 +1,5 @@
 /* global: Ember */
+
 // We import the default value from ember-data into the variable DS.
 //
 // Ember-Data exports by default a namespace (known as DS) that exposes all the
