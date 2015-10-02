@@ -1,0 +1,9 @@
+# Yebo Plugins
+borrowers:
+  build: .
+  command: ember server --watcher polling --proxy http://api.ember-cli-101.com
+  volumes:
+    - .:/borrowers
+  ports:
+   - "4200:4200"
+   - "49152:49152"
